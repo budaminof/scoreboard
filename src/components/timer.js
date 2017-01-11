@@ -16,6 +16,16 @@ export default class Timer extends Component {
   decrementTime() {
     return setInterval(()=> {
       if (this.state.timeEnable) {
+
+        if (this.state.minutes == 0 && this.state.seconds == 0) {
+          this.setState({
+            timeEnable: false,
+            seconds: '00',
+            minutes: 10
+          });
+          return
+        }
+
         if (this.state.seconds == 0) {
           this.setState({
             seconds: 59,
@@ -23,10 +33,7 @@ export default class Timer extends Component {
           });
           return
         }
-        if (this.state.minutes === 0 && this.state.seconds === 0) {
-          this.setState({timeEnable: false});
-          return
-        }
+
         this.setState({ seconds: Number(this.state.seconds) - 1 });
       }
     }, 1000)
