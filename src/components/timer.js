@@ -49,7 +49,8 @@ export default class Timer extends Component {
       <div className="timer row">
         <div>
           <h1 className="text-center">
-            { this.state.minutes } : { this.state.seconds }
+            { this.state.minutes < 10 ? `0${this.state.minutes}` : `${this.state.minutes}` } :
+            { this.state.seconds < 10 ? ` 0${this.state.seconds}` : ` ${this.state.seconds}` }
           </h1>
           <button onClick={ this.setTime.bind(this) } className="btn btn-success center">
             { this.state.timeEnable ? 'STOP' : 'START' }
