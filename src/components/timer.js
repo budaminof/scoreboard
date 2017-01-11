@@ -5,8 +5,8 @@ export default class Timer extends Component {
     super(props);
 
     this.state = {
-      seconds: '00',
-      minutes: 10,
+      seconds: 0,
+      minutes: 1,
       timeEnable: false,
       timer: this.decrementTime()
     }
@@ -20,7 +20,7 @@ export default class Timer extends Component {
         if (this.state.minutes == 0 && this.state.seconds == 0) {
           this.setState({
             timeEnable: false,
-            seconds: '00',
+            seconds: 0,
             minutes: 10
           });
           return
