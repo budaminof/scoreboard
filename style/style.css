@@ -1,0 +1,14 @@
+.score h1 {
+  text-align: center; }
+
+.score button {
+  margin-left: 80px;
+  background-color: #e68608; }
+
+.timer button {
+  margin-left: 60px;
+  width: 100px; }
+
+.timer h1 {
+  border: 1px solid #ababab;
+  padding: 7px; }

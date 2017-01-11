@@ -1,25 +1,19 @@
-# ReduxSimpleStarter
+Hey Josh,
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Thank you for your time yesterday.
 
-###Getting Started###
-
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+As promised - our scoreboard, with React.
 
 ```
 	> npm install
 	> npm start
 ```
+
+Sass:
+
+```
+node-sass --watch sass/style.scss -o style/
+
+```
+
+Bud
