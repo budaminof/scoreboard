@@ -6,7 +6,7 @@ export default class Timer extends Component {
 
     this.state = {
       seconds: 0,
-      minutes: 1,
+      minutes: 10,
       timeEnable: false,
       timer: this.decrementTime()
     }
