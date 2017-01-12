@@ -1,9 +1,9 @@
 {
-  "name": "redux-simple-starter",
+  "name": "scoreboard-playground",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "scoreboard playground with react",
   "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "repository": "git@github.com:budaminof/scoreboard.git",
   "scripts": {
     "start": "parallelshell 'open http://localhost:8080' 'npm run server' 'npm run css:watch'",
     "server": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
