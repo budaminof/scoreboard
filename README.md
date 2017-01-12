@@ -9,11 +9,4 @@ As promised - our scoreboard, with React.
 	> npm start
 ```
 
-Sass:
-
-```
-node-sass --watch sass/style.scss -o style/
-
-```
-
 Bud
